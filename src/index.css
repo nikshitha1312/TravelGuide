@@ -1,13 +1,28 @@
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg;
+  }
+  
+  .input-field {
+    @apply w-full bg-gray-800 rounded-lg p-3 text-white;
+  }
+}
 
 :root {
   color-scheme: dark;
 }
 
 body {
-  @apply bg-black text-white;
-@tailwind base;
   font-family: system-ui, -apple-system, sans-serif;
 }
 

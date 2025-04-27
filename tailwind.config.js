@@ -6,17 +6,13 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Uncut Sans', 'system-ui', 'sans-serif'],
-      },
       colors: {
-        primary: '#4B6BFB',
-        secondary: '#7B92FF',
-        dark: {
-          DEFAULT: '#1E1E1E',
-          lighter: '#2D2D2D',
-        },
+        primary: '#3B82F6',
+        secondary: '#1F2937',
       },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+      }
     },
   },
   plugins: [],
